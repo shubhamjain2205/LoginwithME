@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+body{
+    background: url(/img/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+    /* border: 2px solid white; */
+    color: white;
+    position: absolute;
+    top: 16%;
+    left: 37%;
+    border-radius: 12px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    padding: 50px;
+    /* background: rgba(54, 54, 54, 0.7); */
+    box-shadow: 0 0 20px 4px rgb(14 12 12);
+}
+
+.container h1{
+    font-size: 40px;
+    border-bottom: 5px solid #8f0f54;
+    margin-bottom: 40px;
+    padding: 22px;
+    display: inline-block;
+    transition-duration: 0.5s;
+    /* transition-property: ease; */
+
+}
+
+.container h1:hover{
+    border-bottom: 5px solid #004478;
+    /* transition-property: ease; */
+    transition-duration: 0.5s;
+}
+
+.box{
+    width: 100%;
+    /* border: 2px solid purple; */
+    border-bottom: 2px solid #004478;
+    transition-duration: 0.5s;
+
+}
+
+.box:hover{
+    border-bottom: 2px solid #8f0f54;
+    transition-duration: 0.5s;
+
+}
+
+.box input{
+    width: 75%;
+    margin: 24px 22px;
+    padding: 10px;
+    font-size: 15px;
+    /* border: 2px solid purple; */
+    /* border-radius: 10px; */
+    outline: none;
+    border: none;
+    background: none;
+    color: white;
+}
+
+.box i{
+    width: 0px;
+    /* float: left; */
+    text-align: center;
+}
+
+.btn{
+    cursor: pointer;
+    outline: none;
+    width: 25%;
+    margin: 12px 0px;
+    padding: 6px;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    border: 2px solid #8f0f54;
+    transition-duration: 0.3s;
+
+}
+
+.btn:hover{
+    border: 2px solid #004478;
+    transition-duration: 0.3s;
+}
